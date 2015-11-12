@@ -20,10 +20,11 @@ alias subl='sublime'
 export BUNDLER_EDITOR=subl
 export PATH=$PATH:~/bin
 
-#Unix
+#Unix alias
 alias ls='ls -GFh'
+alias la='ls -la'
 
-#Rails
+#Rails alias
 alias rakest='rake db:migrate:status'
 alias rs='rails s'
 alias rc='rails c'
@@ -31,6 +32,6 @@ alias g='be guard'
 alias guard="be guard"
 alias ss='spring stop'
 
-#Bundler
+#Bundler alias
 alias b="bundle"
 alias be="bundle exec"
