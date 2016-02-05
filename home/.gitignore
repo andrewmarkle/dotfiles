@@ -41,3 +41,5 @@ __MACOSX
 .powder
 *.sublime-project
 *.sublime-workspace
+.ruby-version
+/config/secrets.yml

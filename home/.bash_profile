@@ -25,13 +25,26 @@ alias ls='ls -GFh'
 alias la='ls -la'
 
 #Rails alias
-alias rakest='rake db:migrate:status'
+alias rk="rake"
+alias rkst='rake db:migrate:status'
+alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
+alias m="migrate"
 alias rs='rails s'
 alias rc='rails c'
 alias g='be guard'
 alias guard="be guard"
+alias glr="guard -P livereload"
 alias ss='spring stop'
+alias s="rspec"
+alias sidekiq="bundle exec sidekiq"
+alias deploy="git push heroku master && heroku run rake db:migrate && heroku restart"
 
 #Bundler alias
 alias b="bundle"
 alias be="bundle exec"
+
+#Jekyll alias
+alias jk="jekyll"
+
+#Fastgem search (searches ruby gems)
+alias rg="fastgem search"
