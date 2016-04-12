@@ -30,7 +30,8 @@ alias be="bundle exec"
 
 #Rails alias
 alias rk="rake"
-alias rkst='rake db:migrate:status'
+alias rstat='rake db:migrate:status'
+alias rback='rake db:rollback'
 alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
 alias m="migrate"
 alias rs='rails s'
